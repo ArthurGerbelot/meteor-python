@@ -1,0 +1,11 @@
+/* CSS declarations go here */
+.result {
+  margin: 10px;
+}
+.json {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 5px;
+  background: #DDD;
+  color: #444;
+}

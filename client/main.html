@@ -1,0 +1,22 @@
+<head>
+  <title>meteor-python</title>
+</head>
+
+<body>
+  <h1>Meteor Python</h1>
+  {{> main}}
+</body>
+
+<Template name="main">
+  <button data-id="1">./python/script1.py</button>
+  <button data-id="2">./python/script2.py</button>
+  <button data-id="3">./python/script3.py</button>
+
+  {{#if haveJson}}
+    <div class="result">
+      <strong>Python result:</strong>
+      <br/>
+      <div class="json">{{getJson}}</div>
+    </div>
+  {{/if}}
+</Template>
